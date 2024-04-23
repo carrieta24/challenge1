@@ -33,7 +33,7 @@ public class Main {
                     System.out.printf("Su valor en pesos argentinos es: %.2f",(ValorConvertir * dolarArg));
                     break;
                 case 2:
-                    System.out.println("Ingrese el valor en pesos argentinos: $");
+                    System.out.println("Ingrese el valor en pesos argentinos: ");
                     ValorConvertir = teclado.nextDouble();
                     System.out.printf("Su valor en dólares es: %.2f",(ValorConvertir / dolarArg));
                     break;
