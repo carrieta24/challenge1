@@ -28,34 +28,34 @@ public class Main {
 
             switch (opcion){
                 case 1:
-                    System.out.println("Ingrese el valor en dólares: $");
+                    System.out.println("Ingrese el valor en dólares: ");
                     ValorConvertir = teclado.nextDouble();
-                    System.out.println("Su valor en pesos argentinos es: " + Math.round(ValorConvertir * dolarArg));
+                    System.out.printf("Su valor en pesos argentinos es: %.2f",(ValorConvertir * dolarArg));
                     break;
                 case 2:
                     System.out.println("Ingrese el valor en pesos argentinos: $");
                     ValorConvertir = teclado.nextDouble();
-                    System.out.println("Su valor en dólares es: " + Math.round(ValorConvertir / dolarArg));
+                    System.out.printf("Su valor en dólares es: %.2f",(ValorConvertir / dolarArg));
                     break;
                 case 3:
                     System.out.println("Ingrese el valor en dólares: ");
                     ValorConvertir = teclado.nextDouble();
-                    System.out.println("Su valor en reales brasileños es: " + Math.round(ValorConvertir * dolarBras));
+                    System.out.printf("Su valor en reales brasileños es: %.2f",(ValorConvertir * dolarBras));
                     break;
                 case 4:
                     System.out.println("Ingrese el valor en reales brasileños: ");
                     ValorConvertir = teclado.nextDouble();
-                    System.out.println("Su valor en dólares es: " + Math.round(ValorConvertir / dolarBras));
+                    System.out.printf("Su valor en dólares es: %.2f",(ValorConvertir / dolarBras));
                     break;
                 case 5:
                     System.out.println("Ingrese el valor en dólares: ");
                     ValorConvertir = teclado.nextDouble();
-                    System.out.println("Su valor en pesos colombianos es: " + Math.round(ValorConvertir * dolarCol));
+                    System.out.printf("Su valor en pesos colombianos es: %.2f",(ValorConvertir * dolarCol));
                     break;
                 case 6:
                     System.out.println("Ingrese el valor en pesos colombianos: ");
                     ValorConvertir = teclado.nextDouble();
-                    System.out.println("Su valor en dólares es: " + Math.round(ValorConvertir / dolarCol));
+                    System.out.printf("Su valor en dólares es: %.2f",(ValorConvertir / dolarCol));
                     break;
                 case 7:
                     System.out.println("Saliendo del conversor. Gracias por preferirnos");
